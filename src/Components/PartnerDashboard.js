@@ -379,8 +379,8 @@ export default function PartnerDashboard() {
           <nav className="pd-nav-links">
             {[
               { l: "Home",             p: "/home"       },
-              { l: "Donor Dashboard",  p: "/donor"      },
-              { l: "Create Lot",       p: "/create-lot" },
+              { l: "Donor Dashboard",  p: "/dash"      },
+              { l: "Create Lot",       p: "/create" },
               { l: "QR Scanner",       p: "/qr"         },
               { l: "Admin Panel",      p: "/admin"      },
               { l: "Testing Screen",   p: "/testing"    },
