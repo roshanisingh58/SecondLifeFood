@@ -3,6 +3,8 @@
 Second Life Food is a web-based platform that helps reduce food waste by enabling the **collection, tracking, testing, and safe redistribution** of surplus/expired packaged food.  
 Instead of directly throwing food away, the system focuses on **verification + chemical stability testing + transparent tracking** so that usable food can be repurposed responsibly.
 
+## Live Demo
+https://second-life-food-six.vercel.app/home
 
 
 ## Project Highlights
