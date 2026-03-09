@@ -6,7 +6,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav className="slf-nav">
-      <a href="/" className="slf-nav__brand">
+      <a href="/home" className="slf-nav__brand">
         <div className="slf-nav__logo">
           <svg viewBox="0 0 24 24" fill="white" width="18" height="18">
             <path d="M12 2a10 10 0 100 20A10 10 0 0012 2zm0 3c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm4 13H8v-1c0-2.67 5.33-4 8-4v5z" />
@@ -342,9 +342,9 @@ const MiniBar = ({ values, colorClass }) => {
 const SideNav = ({ active, setActive }) => {
   const items = [
     { key: "overview",   label: "Overview" },
-    { key: "donations",   label: "Donations",   badge: "84" },
-    { key: "ngos",        label: "NGO Partners" },
-    { key: "lots",      label: "Lot Tracking" },
+    { key: "donations",   label: "Donations",   badge: "84" ,   route: "/create-lot" },
+    { key: "ngos",        label: "NGO Partners",   route: "/ngos" },
+    { key: "lots",      label: "Lot Tracking",    route: "/track" },
     { key: "analytics",  label: "Analytics" },
     { key: "reports",     label: "Reports" },
   ];
